@@ -1,0 +1,121 @@
+body {
+  font-family: 'Prompt', sans-serif;
+  /* เปลี่ยนชื่อฟอนต์ตามต้องการ */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container img {
+  width: 250px;
+  margin-top: 15px;
+  border-radius: 47px;
+  margin-bottom: -120px;
+  position: relative;
+  z-index: 10;
+  box-shadow: rgba(0, 0, 0, 0.25) 11px 11px 4px;
+}
+
+.allform {
+  overflow: auto;
+  border-radius: 15px;
+  padding: 30px;
+  padding-top: 140px;
+  background-color: rgba(227, 222, 97, 100);
+  box-shadow: rgba(0, 0, 0, 0.25) 11px 11px 4px;
+  position: relative;
+  z-index: 1;
+}
+
+.emailform {
+  gap: 5px;
+  border-radius: 15px;
+  background-color: #F2F996;
+  box-shadow: rgba(0, 0, 0, 0.25) 11px 11px 4px;
+  display: grid;
+  padding: 15px;
+}
+
+.passwordform {
+  gap: 5px;
+  display: grid;
+  border-radius: 15px;
+  background-color: #F2F996;
+  box-shadow: rgba(0, 0, 0, 0.25) 11px 11px 4px;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.forgetpassword {
+  padding: 20px;
+  font-size: 1.2em;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.button1 {
+  border-radius: 15px;
+  border-style: none;
+  background-color: #F2F996;
+  box-shadow: rgba(0, 0, 0, 0.25) 11px 11px 4px;
+  padding: 20px;
+  font-size: 1.5em;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.button2 {
+  border-radius: 15px;
+  border-style: none;
+  background-color: #F2F996;
+  box-shadow: rgba(0, 0, 0, 0.25) 11px 11px 4px;
+  padding: 2px;
+  font-size: 1.5em;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+label {
+  display: block;
+  font-size: 1.5em;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  max-width: 400px;
+  font-size: 1.5em;
+  border-radius: 8px;
+  margin-right: 115px;
+  background-color: rgba(227, 222, 97, 100);
+  border: none;
+  outline: none;
+}
+
+a {
+  color: black;
+}
+
+.button1:hover {
+  background-color: rgb(217, 224, 94);
+}
+
+.button1:active {
+  background-color: rgb(190, 196, 83);
+}
+
+.button2:hover {
+  background-color: rgb(217, 224, 94);
+}
+
+.button2:active {
+  background-color: rgb(190, 196, 83);
+}
