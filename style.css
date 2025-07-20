@@ -1,6 +1,6 @@
 body {
   font-family: 'Prompt', sans-serif;
-  /* เปลี่ยนชื่อฟอนต์ตามต้องการ */
+  background-color: #E3DE96;
 }
 
 .container {
@@ -102,6 +102,10 @@ input {
 
 a {
   color: black;
+}
+
+input::placeholder {
+  color: hsla(0, 0%, 70%, 0.653);
 }
 
 .button1:hover {
